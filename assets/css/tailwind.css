@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 游ゴシック体, YuGothic, 游ゴシック, 'Yu Gothic', sans-serif;
+    /* 好みの色を入れる */
+    @apply bg-gray-200;
+  }
+}
+
+@layer components {
+  .text-error {
+    @apply text-sm text-red-500;
+  }
+}
