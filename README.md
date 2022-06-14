@@ -2,6 +2,7 @@
 
 Nuxt.js(tailwindcss)の開発用テンプレート
 tailwindcss でない、css framework を使いたい方は各々で設定してください。
+現状 nuxt3 が public Beta のため動かなくなる可能性あり。
 
 ## ディレクトリ構成
 
@@ -23,10 +24,10 @@ git clone git@github.com:Fujiwara-Ken/next_example.git
 `yarn install`
 
 ```shell
-# v1.22.15であることを確
+# v1.22.15以上であることを確認
 yarn -v
 
-#パッケージをインストール
+# パッケージをインストール
 yarn install
 ```
 
